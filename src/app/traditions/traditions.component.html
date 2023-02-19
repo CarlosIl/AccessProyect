@@ -1,0 +1,10 @@
+<h1>Traditions</h1>
+
+<div class="container">
+    <img src="../../assets/imgs/traditions.JPG">
+    <mat-accordion>
+        <div *ngFor="let tradition of traditions">
+            <app-accordion [title]="tradition.title" [content]="tradition.content"></app-accordion>
+        </div>
+    </mat-accordion>
+</div>

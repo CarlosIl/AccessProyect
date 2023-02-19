@@ -1,0 +1,21 @@
+@import '../styles.scss';
+@import '../fonts.scss';
+
+mat-drawer-content{
+    background-color: map-get($AccessProyect-primary,200);
+}
+
+.mat-drawer{
+    background-color: map-get($AccessProyect-primary,700);
+    .enlaces{
+        display: inline;
+        a {
+            text-decoration: none;
+            font-family: $content_font;
+            font-size: 24px;
+            color: map-get($AccessProyect-accent , 200);
+            display: list-item;
+            padding: 15px;
+        }
+    }
+}

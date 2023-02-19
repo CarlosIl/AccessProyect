@@ -1,0 +1,31 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+::ng-deep .mat-expansion-panel-body {
+    background-color: map-get($AccessProyect-primary, 500);
+}
+
+mat-expansion-panel-header {
+    background-color: map-get($AccessProyect-primary, 500);
+
+    mat-panel-title {
+        font-family: $content_font;
+        font-size: 25px;
+        color: map-get($AccessProyect-accent , 200);
+    }
+
+    mat-expanse{
+        background-color: map-get($AccessProyect-primary, 500);
+        :hover{
+            background-color: map-get($AccessProyect-primary, 500);
+        }
+    }
+
+}
+
+p {
+    white-space: pre-line;
+    font-family: $content_font;
+    font-size: 16px;
+    color: map-get($AccessProyect-accent , 700);
+}

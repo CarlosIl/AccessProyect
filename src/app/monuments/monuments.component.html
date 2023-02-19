@@ -1,0 +1,10 @@
+<h1>Monuments</h1>
+
+<div class="container">
+    <img src="../../assets/imgs/monuments.jpg">
+    <mat-accordion>
+        <div *ngFor="let monument of monuments">
+            <app-accordion [title]="monument.title" [content]="monument.content"></app-accordion>
+        </div>
+    </mat-accordion>
+</div>

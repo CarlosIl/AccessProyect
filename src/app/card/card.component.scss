@@ -1,0 +1,34 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+mat-card{
+    background-color: map-get($AccessProyect-primary, 500);
+}
+
+mat-card-title{
+    font-family: $content_font;
+    font-size: 25px;
+    color: map-get($AccessProyect-accent , 200);
+}
+
+mat-card-subtitle{
+    p{
+        font-family: $content_font;
+        font-size: 14px;
+        color: map-get($AccessProyect-accent , 500);
+    }
+}
+
+mat-card-content{
+    p{
+        white-space: pre-line;
+        font-family: $content_font;
+        font-size: 20px;
+        color: map-get($AccessProyect-accent , 700);        
+    }
+}
+
+img{
+    width: 100%;
+    height: 500px;
+}
